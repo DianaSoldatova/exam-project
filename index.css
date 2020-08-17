@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Cormorant+Infant:ital,wght@1,500&display=swap');
+
+p {
+    margin: 0;
+}
+:root {
+    font-family: 'Cormorant Infant';
+
+}
+body {
+    max-width: 980 px;
+    margin: auto;
+}
+header nav .logo {
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+header nav .menu {
+    display: flex;
+    font-weight: bold;
+}
+header nav .menu {
+    padding: 0;
+    justify-content: space-around;
+}
+header nav .menu li {
+    list-style-type: none;
+}
+header nav .menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+header nav .menu a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 480px) {
+    header nav {
+        display: flex;
+    }
+    header nav .menu {
+        flex: 1;
+    }
+}
+header .banner {
+    background-image: url(img/home-alcothird.jpg);
+   background-size: cover;
+   background-position: center; 
+   min-height: 700px;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+    
+}
+.product-card {
+    border: 3px rosybrown double;
+    padding: 10px;
+    max-width: 300px;
+    
+
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+header .first {
+    color: white;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    font-size: 3em;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+#text {
+    font-size: em;
+    padding-left: 80px;
+    background-color: rosybrown;
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-start;
+}
+.home {
+    display: flex;
+    padding-left: 70px;
+    background-color: rosybrown;
+    font-size: 1.5em;
+    padding-right: 70px;
+}
+
+
